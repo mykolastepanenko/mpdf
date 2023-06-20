@@ -16704,6 +16704,7 @@ class Mpdf implements \Psr\Log\LoggerAwareInterface
 	{
 		$this->SetLineWidth($b['w'] / $k);
 		$this->SetDColor($b['c']);
+        if($b['c'] == false) return;
 		if ($b['c'][0] == 5) { // RGBa
 			$this->SetAlpha(ord($b['c'][4]) / 100, 'Normal', false, 'S'); // mPDF 5.7.2
 		} elseif ($b['c'][0] == 6) { // CMYKa
