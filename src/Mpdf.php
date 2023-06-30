@@ -27,10 +27,9 @@ use Psr\Log\NullLogger;
  */
 class Mpdf implements \Psr\Log\LoggerAwareInterface
 {
-
 	use Strict;
 	use FpdiTrait;
-	use UFO\MpdfPsrLogAwareTrait;
+	use MpdfPsrLogAwareTrait;
 
 	const VERSION = '8.2.0';
 
