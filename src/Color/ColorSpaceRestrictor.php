@@ -85,7 +85,7 @@ class ColorSpaceRestrictor
 	private function restrictSpotColorSpace($c, &$PDFAXwarnings = [])
 	{
 		if (!isset($this->mpdf->spotColorIDs[$c[1]])) {
-				throw new \Mpdf\MpdfException('Error: Spot colour has not been defined - ' . $this->mpdf->spotColorIDs[$c[1]]);
+				throw new \UFO\Mpdf\MpdfException('Error: Spot colour has not been defined - ' . $this->mpdf->spotColorIDs[$c[1]]);
 		}
 
 		if ($this->mpdf->PDFA) {

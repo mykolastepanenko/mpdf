@@ -2,7 +2,7 @@
 
 namespace UFO\Mpdf;
 
-class MpdfImageException extends \Mpdf\MpdfException
+class MpdfImageException extends \UFO\Mpdf\MpdfException
 {
 
 }

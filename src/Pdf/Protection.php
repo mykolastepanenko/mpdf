@@ -65,7 +65,7 @@ class Protection
 	public function __construct(UniqidGenerator $uniqidGenerator)
 	{
 		if (!function_exists('random_int') || !function_exists('random_bytes')) {
-			throw new \Mpdf\MpdfException(
+			throw new \UFO\Mpdf\MpdfException(
 				'Unable to set PDF file protection, CSPRNG Functions are not available. '
 				. 'Use paragonie/random_compat polyfill or upgrade to PHP 7.'
 			);
@@ -113,7 +113,7 @@ class Protection
 		if ($length === 128) {
 			$this->useRC128Encryption = true;
 		} elseif ($length !== 40) {
-			throw new \Mpdf\MpdfException('PDF protection only allows lenghts of 40 or 128');
+			throw new \UFO\Mpdf\MpdfException('PDF protection only allows lenghts of 40 or 128');
 		}
 
 		if ($owner_pass === null) {
@@ -237,7 +237,7 @@ class Protection
 
 		foreach ($permissions as $permission) {
 			if (!isset($this->options[$permission])) {
-				throw new \Mpdf\MpdfException(sprintf('Invalid permission type "%s"', $permission));
+				throw new \UFO\Mpdf\MpdfException(sprintf('Invalid permission type "%s"', $permission));
 			}
 			if ($this->options[$permission] > 32) {
 				$this->useRC128Encryption = true;

@@ -32,7 +32,7 @@ class ImageHeader
 	var $m_nTableSize;
 
 	/**
-	 * @var \Mpdf\Gif\ColorTable
+	 * @var \UFO\Mpdf\Gif\ColorTable
 	 */
 	var $m_colorTable;
 

@@ -9,22 +9,22 @@ class DirectWrite
 {
 
 	/**
-	 * @var \Mpdf\Mpdf
+	 * @var \UFO\Mpdf\Mpdf
 	 */
 	private $mpdf;
 
 	/**
-	 * @var \Mpdf\Otl
+	 * @var \UFO\Mpdf\Otl
 	 */
 	private $otl;
 
 	/**
-	 * @var \Mpdf\SizeConverter
+	 * @var \UFO\Mpdf\SizeConverter
 	 */
 	private $sizeConverter;
 
 	/**
-	 * @var \Mpdf\Color\ColorConverter
+	 * @var \UFO\Mpdf\Color\ColorConverter
 	 */
 	private $colorConverter;
 
@@ -285,11 +285,11 @@ class DirectWrite
 		$fontwidth /= 100;
 
 		if ($kerning == 0) {
-			throw new \Mpdf\MpdfException('Please use values unequal to zero for kerning (CircularText)');
+			throw new \UFO\Mpdf\MpdfException('Please use values unequal to zero for kerning (CircularText)');
 		}
 
 		if ($fontwidth == 0) {
-			throw new \Mpdf\MpdfException('Please use values unequal to zero for font width (CircularText)');
+			throw new \UFO\Mpdf\MpdfException('Please use values unequal to zero for font width (CircularText)');
 		}
 
 		$text = str_replace("\r", '', $text);

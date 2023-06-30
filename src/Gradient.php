@@ -12,22 +12,22 @@ class Gradient
 	const TYPE_RADIAL = 3;
 
 	/**
-	 * @var \Mpdf\Mpdf
+	 * @var \UFO\Mpdf\Mpdf
 	 */
 	private $mpdf;
 
 	/**
-	 * @var \Mpdf\SizeConverter
+	 * @var \UFO\Mpdf\SizeConverter
 	 */
 	private $sizeConverter;
 
 	/**
-	 * @var \Mpdf\Color\ColorConverter
+	 * @var \UFO\Mpdf\Color\ColorConverter
 	 */
 	private $colorConverter;
 
 	/**
-	 * @var \Mpdf\Writer\BaseWriter
+	 * @var \UFO\Mpdf\Writer\BaseWriter
 	 */
 	private $writer;
 

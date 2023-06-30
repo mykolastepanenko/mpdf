@@ -138,7 +138,7 @@ class FontWriter
 				$this->mpdf->fonts[$k]['n'] = $this->mpdf->n + 1;
 
 				if ($this->mpdf->PDFA || $this->mpdf->PDFX) {
-					throw new \Mpdf\MpdfException('Core fonts are not allowed in PDF/A1-b or PDFX/1-a files (Times, Helvetica, Courier etc.)');
+					throw new \UFO\Mpdf\MpdfException('Core fonts are not allowed in PDF/A1-b or PDFX/1-a files (Times, Helvetica, Courier etc.)');
 				}
 
 				$this->writer->object();
@@ -435,7 +435,7 @@ class FontWriter
 					unset($ttf);
 				}
 			} else {
-				throw new \Mpdf\MpdfException(sprintf('Unsupported font type: %s (%s)', $type, $name));
+				throw new \UFO\Mpdf\MpdfException(sprintf('Unsupported font type: %s (%s)', $type, $name));
 			}
 		}
 	}

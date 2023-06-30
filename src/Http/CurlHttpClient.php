@@ -87,7 +87,7 @@ class CurlHttpClient implements \Mpdf\Http\ClientInterface, \Psr\Log\LoggerAware
 			$this->logger->error($message, ['context' => LogContext::REMOTE_CONTENT]);
 
 			if ($this->mpdf->debug) {
-				throw new \Mpdf\MpdfException($message);
+				throw new \UFO\Mpdf\MpdfException($message);
 			}
 
 			curl_close($ch);
@@ -101,7 +101,7 @@ class CurlHttpClient implements \Mpdf\Http\ClientInterface, \Psr\Log\LoggerAware
 			$this->logger->error($message, ['context' => LogContext::REMOTE_CONTENT]);
 
 			if ($this->mpdf->debug) {
-				throw new \Mpdf\MpdfException($message);
+				throw new \UFO\Mpdf\MpdfException($message);
 			}
 
 			curl_close($ch);

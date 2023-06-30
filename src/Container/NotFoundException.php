@@ -2,7 +2,7 @@
 
 namespace UFO\Mpdf\Container;
 
-class NotFoundException extends \Mpdf\MpdfException
+class NotFoundException extends \UFO\Mpdf\MpdfException
 {
 
 }

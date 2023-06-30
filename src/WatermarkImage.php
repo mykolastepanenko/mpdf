@@ -2,7 +2,7 @@
 
 namespace UFO\Mpdf;
 
-class WatermarkImage implements \Mpdf\Watermark
+class WatermarkImage implements \UFO\Mpdf\Watermark
 {
 
 	const SIZE_DEFAULT = 'D';

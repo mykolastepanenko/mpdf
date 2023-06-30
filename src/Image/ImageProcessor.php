@@ -558,7 +558,7 @@ class ImageProcessor implements \Psr\Log\LoggerAwareInterface
 	private function gzCompress($data)
 	{
 		if (!function_exists('gzcompress')) {
-			throw new \Mpdf\MpdfException('gzcompress is not available. install ext-zlib extension.');
+			throw new \UFO\Mpdf\MpdfException('gzcompress is not available. install ext-zlib extension.');
 		}
 
 		return gzcompress($data);
@@ -626,7 +626,7 @@ class ImageProcessor implements \Psr\Log\LoggerAwareInterface
 
 			// convert to RGB image
 			if (!function_exists('gd_info')) {
-				throw new \Mpdf\MpdfException(sprintf('JPG image may not use CMYK color space (%s).', $file));
+				throw new \UFO\Mpdf\MpdfException(sprintf('JPG image may not use CMYK color space (%s).', $file));
 			}
 
 			if ($this->mpdf->PDFA && !$this->mpdf->PDFAauto) {
@@ -896,7 +896,7 @@ class ImageProcessor implements \Psr\Log\LoggerAwareInterface
 			// Alpha channel set (including using tRNS for Paletted images)
 			if ($pngalpha) {
 				if ($this->mpdf->PDFA) {
-					throw new \Mpdf\MpdfException(sprintf('PDFA1-b does not permit images with alpha channel transparency (%s).', $file));
+					throw new \UFO\Mpdf\MpdfException(sprintf('PDFA1-b does not permit images with alpha channel transparency (%s).', $file));
 				}
 
 				$imgalpha = imagecreate($w, $h);

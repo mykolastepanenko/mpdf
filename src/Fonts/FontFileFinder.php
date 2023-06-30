@@ -30,6 +30,6 @@ class FontFileFinder
 			}
 		}
 
-		throw new \Mpdf\MpdfException(sprintf('Cannot find TTF TrueType font file "%s" in configured font directories.', $name));
+		throw new \UFO\Mpdf\MpdfException(sprintf('Cannot find TTF TrueType font file "%s" in configured font directories.', $name));
 	}
 }

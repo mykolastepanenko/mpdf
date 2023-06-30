@@ -1478,7 +1478,7 @@ class Mpdf implements \Psr\Log\LoggerAwareInterface
 			$css = file_get_contents($this->defaultCssFile);
 			$this->cssManager->ReadCSS('<style> ' . $css . ' </style>');
 		} else {
-			throw new \Mpdf\MpdfException(sprintf('Unable to read default CSS file "%s"', $this->defaultCssFile));
+			throw new \UFO\Mpdf\MpdfException(sprintf('Unable to read default CSS file "%s"', $this->defaultCssFile));
 		}
 
 		if ($default_font == '') {
@@ -1651,7 +1651,7 @@ class Mpdf implements \Psr\Log\LoggerAwareInterface
 		} else {
 
 			if (!$format[0] || !$format[1]) {
-				throw new \Mpdf\MpdfException('Invalid page format: ' . $format[0] . ' ' . $format[1]);
+				throw new \UFO\Mpdf\MpdfException('Invalid page format: ' . $format[0] . ' ' . $format[1]);
 			}
 
 			$this->fwPt = $format[0] * Mpdf::SCALE;

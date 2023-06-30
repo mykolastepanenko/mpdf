@@ -31,7 +31,7 @@ class ServiceFactory
 {
 
 	/**
-	 * @var \Mpdf\Container\ContainerInterface|null
+	 * @var \UFO\Mpdf\Container\ContainerInterface|null
 	 */
 	private $container;
 

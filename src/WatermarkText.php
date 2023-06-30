@@ -2,7 +2,7 @@
 
 namespace UFO\Mpdf;
 
-class WatermarkText implements \Mpdf\Watermark
+class WatermarkText implements \UFO\Mpdf\Watermark
 {
 
 	/** @var string */

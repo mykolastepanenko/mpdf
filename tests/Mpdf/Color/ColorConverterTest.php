@@ -98,7 +98,7 @@ class ColorConverterTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 
 	public function testConvertUnknownSpotColor()
 	{
-		$this->expectException(\Mpdf\MpdfException::class);
+		$this->expectException(\UFO\Mpdf\MpdfException::class);
 		$this->expectExceptionMessage('Undefined spot color "PANTONE 534 EC"');
 
 		$this->converter->convert('spot(PANTONE 534 EC, 100%, 85, 65, 47)');
@@ -159,7 +159,7 @@ class ColorConverterTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 
 	public function testLightenWithArray()
 	{
-		$this->expectException(\Mpdf\MpdfException::class);
+		$this->expectException(\UFO\Mpdf\MpdfException::class);
 
 		$this->converter->lighten([]);
 	}
@@ -196,7 +196,7 @@ class ColorConverterTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 
 	public function testDarkenWithArray()
 	{
-		$this->expectException(\Mpdf\MpdfException::class);
+		$this->expectException(\UFO\Mpdf\MpdfException::class);
 
 		$this->converter->darken([]);
 	}
@@ -225,14 +225,14 @@ class ColorConverterTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 
 	public function testInvertWithArray()
 	{
-		$this->expectException(\Mpdf\MpdfException::class);
+		$this->expectException(\UFO\Mpdf\MpdfException::class);
 
 		$this->converter->invert([]);
 	}
 
 	public function testInvertNonRgb()
 	{
-		$this->expectException(\Mpdf\MpdfException::class);
+		$this->expectException(\UFO\Mpdf\MpdfException::class);
 
 		$this->converter->invert("2\x00d\x00\x00\x00");
 	}

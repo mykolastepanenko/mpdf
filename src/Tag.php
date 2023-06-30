@@ -13,66 +13,66 @@ class Tag
 	use Strict;
 
 	/**
-	 * @var \Mpdf\Mpdf
+	 * @var \UFO\Mpdf\Mpdf
 	 */
 	private $mpdf;
 
 	/**
-	 * @var \Mpdf\Cache
+	 * @var \UFO\Mpdf\Cache
 	 */
 	private $cache;
 
 	/**
-	 * @var \Mpdf\CssManager
+	 * @var \UFO\Mpdf\CssManager
 	 */
 	private $cssManager;
 
 	/**
-	 * @var \Mpdf\Form
+	 * @var \UFO\Mpdf\Form
 	 */
 	private $form;
 
 	/**
-	 * @var \Mpdf\Otl
+	 * @var \UFO\Mpdf\Otl
 	 */
 	private $otl;
 
 	/**
-	 * @var \Mpdf\TableOfContents
+	 * @var \UFO\Mpdf\TableOfContents
 	 */
 	private $tableOfContents;
 
 	/**
-	 * @var \Mpdf\SizeConverter
+	 * @var \UFO\Mpdf\SizeConverter
 	 */
 	private $sizeConverter;
 
 	/**
-	 * @var \Mpdf\Color\ColorConverter
+	 * @var \UFO\Mpdf\Color\ColorConverter
 	 */
 	private $colorConverter;
 
 	/**
-	 * @var \Mpdf\Image\ImageProcessor
+	 * @var \UFO\Mpdf\Image\ImageProcessor
 	 */
 	private $imageProcessor;
 
 	/**
-	 * @var \Mpdf\Language\LanguageToFontInterface
+	 * @var \UFO\Mpdf\Language\LanguageToFontInterface
 	 */
 	private $languageToFont;
 
 	/**
-	 * @param \Mpdf\Mpdf $mpdf
-	 * @param \Mpdf\Cache $cache
-	 * @param \Mpdf\CssManager $cssManager
-	 * @param \Mpdf\Form $form
-	 * @param \Mpdf\Otl $otl
-	 * @param \Mpdf\TableOfContents $tableOfContents
-	 * @param \Mpdf\SizeConverter $sizeConverter
-	 * @param \Mpdf\Color\ColorConverter $colorConverter
-	 * @param \Mpdf\Image\ImageProcessor $imageProcessor
-	 * @param \Mpdf\Language\LanguageToFontInterface $languageToFont
+	 * @param \UFO\Mpdf\Mpdf $mpdf
+	 * @param \UFO\Mpdf\Cache $cache
+	 * @param \UFO\Mpdf\CssManager $cssManager
+	 * @param \UFO\Mpdf\Form $form
+	 * @param \UFO\Mpdf\Otl $otl
+	 * @param \UFO\Mpdf\TableOfContents $tableOfContents
+	 * @param \UFO\Mpdf\SizeConverter $sizeConverter
+	 * @param \UFO\Mpdf\Color\ColorConverter $colorConverter
+	 * @param \UFO\Mpdf\Image\ImageProcessor $imageProcessor
+	 * @param \UFO\Mpdf\Language\LanguageToFontInterface $languageToFont
 	 */
 	public function __construct(
 		Mpdf $mpdf,
@@ -101,7 +101,7 @@ class Tag
 
 	/**
 	 * @param string $tag The tag name
-	 * @return \Mpdf\Tag\Tag
+	 * @return \UFO\Mpdf\Tag\Tag
 	 */
 	private function getTagInstance($tag)
 	{

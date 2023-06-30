@@ -83,7 +83,7 @@ class ProtectionTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 
 	public function testInvalidPermissions()
 	{
-		$this->expectException(\Mpdf\MpdfException::class);
+		$this->expectException(\UFO\Mpdf\MpdfException::class);
 		$this->expectExceptionMessage('Invalid permission type "fly-a-broomstick"');
 
 		$this->protection->setProtection(['fly-a-broomstick']);
@@ -91,7 +91,7 @@ class ProtectionTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 
 	public function testInvalidLength()
 	{
-		$this->expectException(\Mpdf\MpdfException::class);
+		$this->expectException(\UFO\Mpdf\MpdfException::class);
 		$this->expectExceptionMessage('PDF protection only allows lenghts of 40 or 128');
 
 		$this->protection->setProtection(['print'], '', null, 42);

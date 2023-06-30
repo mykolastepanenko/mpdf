@@ -10,7 +10,7 @@ class Issue1204Test extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 	 *
 	 * is_file(): Unable to find the wrapper "chrome-extension" - did you forget to enable it when you configured PHP?
 	 *
-	 * @throws \Mpdf\MpdfException
+	 * @throws \UFO\Mpdf\MpdfException
 	 */
 	public function testIgnoresNonHttpURIs()
 	{

@@ -2,7 +2,7 @@
 
 namespace UFO\Mpdf\Exception;
 
-class InvalidArgumentException extends \Mpdf\MpdfException
+class InvalidArgumentException extends \UFO\Mpdf\MpdfException
 {
 
 }

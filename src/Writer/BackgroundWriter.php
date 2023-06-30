@@ -121,7 +121,7 @@ final class BackgroundWriter
 			}
 
 			if (!$img_obj) {
-				throw new \Mpdf\MpdfException('Problem: Image object not found for background pattern ' . $img['i']);
+				throw new \UFO\Mpdf\MpdfException('Problem: Image object not found for background pattern ' . $img['i']);
 			}
 
 			$this->writer->object();

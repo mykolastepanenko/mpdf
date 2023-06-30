@@ -24,7 +24,7 @@ class AddFontTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 
 	public function testAddUnsupportedFont()
 	{
-		$this->expectException(\Mpdf\MpdfException::class);
+		$this->expectException(\UFO\Mpdf\MpdfException::class);
 		$this->expectExceptionMessage('Font "font" is not supported');
 
 

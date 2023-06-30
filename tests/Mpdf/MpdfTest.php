@@ -42,7 +42,7 @@ class MpdfTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 
 	public function testAdjustHtmlTooLargeHtml()
 	{
-		$this->expectException(\Mpdf\MpdfException::class);
+		$this->expectException(\UFO\Mpdf\MpdfException::class);
 		$this->expectExceptionMessage('The HTML code size is larger than pcre.backtrack_limit');
 
 		$this->mpdf->AdjustHTML(str_repeat('a', ini_get('pcre.backtrack_limit') + 1));
