@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpdf\Tag;
+namespace UFO\Mpdf\Tag;
 
-use Mpdf\Css\Border;
-use Mpdf\Mpdf;
+use UFO\Mpdf\Css\Border;
+use UFO\Mpdf\Mpdf;
 
 class Table extends Tag
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Strict;
-use Mpdf\Color\ColorConverter;
-use Mpdf\Writer\BaseWriter;
-use Mpdf\Writer\FormWriter;
+use UFO\Mpdf\Strict;
+use UFO\Mpdf\Color\ColorConverter;
+use UFO\Mpdf\Writer\BaseWriter;
+use UFO\Mpdf\Writer\FormWriter;
 
 class Form
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Fonts\FontCache;
-use Mpdf\Fonts\GlyphOperator;
+use UFO\Mpdf\Fonts\FontCache;
+use UFO\Mpdf\Fonts\GlyphOperator;
 
 // NOTE*** If you change the defined constants below, be sure to delete all temporary font data files in /ttfontdata/
 // to force mPDF to regenerate cached font files.

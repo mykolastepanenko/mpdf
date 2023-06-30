@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\Http;
+namespace UFO\Mpdf\Http;
 
-use Mpdf\Mpdf;
+use UFO\Mpdf\Mpdf;
 use Psr\Log\NullLogger;
 
 class CurlHttpClientTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase

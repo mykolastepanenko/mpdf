@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpdf\Tag;
+namespace UFO\Mpdf\Tag;
 
-use Mpdf\Mpdf;
-use Mpdf\Utils\UtfString;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\Utils\UtfString;
 
 class TextCircle extends Tag
 {

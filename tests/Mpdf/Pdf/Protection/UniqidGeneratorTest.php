@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Pdf\Protection;
+namespace UFO\Mpdf\Pdf\Protection;
 
 class UniqidGeneratorTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 {

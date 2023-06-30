@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
 class AdjustHtmlTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 {

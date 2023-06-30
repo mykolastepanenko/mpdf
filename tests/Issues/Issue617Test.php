@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-use Mpdf\Output\Destination;
+use UFO\Mpdf\Output\Destination;
 
 class Issue617Test extends \Mpdf\BaseMpdfTest
 {

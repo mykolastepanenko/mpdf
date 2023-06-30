@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Pdf\Protection;
+namespace UFO\Mpdf\Pdf\Protection;
 
 class UniqidGenerator
 {

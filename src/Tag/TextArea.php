@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\Tag;
+namespace UFO\Mpdf\Tag;
 
-use Mpdf\Mpdf;
+use UFO\Mpdf\Mpdf;
 
 class TextArea extends Tag
 {

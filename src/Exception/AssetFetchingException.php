@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Exception;
+namespace UFO\Mpdf\Exception;
 
 class AssetFetchingException extends \Mpdf\MpdfException
 {

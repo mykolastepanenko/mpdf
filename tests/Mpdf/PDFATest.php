@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
 class PDFATest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Fonts\FontCache;
+use UFO\Mpdf\Fonts\FontCache;
 
 class TTFontFileTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 {

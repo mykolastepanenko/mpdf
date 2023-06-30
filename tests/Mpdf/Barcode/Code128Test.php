@@ -1,5 +1,5 @@
 <?php
-namespace Mpdf\Barcode;
+namespace UFO\Mpdf\Barcode;
 
 /**
  * @group unit

@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Fonts\FontCache;
+use UFO\Mpdf\Fonts\FontCache;
 
 /*
  * This script prints out all characters in a TrueType font file to a PDF document.

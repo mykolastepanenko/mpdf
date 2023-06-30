@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Http;
+namespace UFO\Mpdf\Http;
 
 use Psr\Http\Message\RequestInterface;
 

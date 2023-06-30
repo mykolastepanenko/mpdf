@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Barcode;
+namespace UFO\Mpdf\Barcode;
 
 /**
  * IMB - Intelligent Mail Barcode - Onecode - USPS-B-3200

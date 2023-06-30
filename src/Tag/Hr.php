@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\Tag;
+namespace UFO\Mpdf\Tag;
 
-use Mpdf\Utils\NumericString;
+use UFO\Mpdf\Utils\NumericString;
 
 class Hr extends Tag
 {

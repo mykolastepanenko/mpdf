@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Image;
+namespace UFO\Mpdf\Image;
 
 class ImageTypeGuesser
 {

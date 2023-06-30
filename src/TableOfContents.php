@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Utils\Arrays;
+use UFO\Mpdf\Utils\Arrays;
 use DeepCopy\DeepCopy;
 
 class TableOfContents

@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Fonts\FontFileFinder;
+use UFO\Mpdf\Fonts\FontFileFinder;
 
 $family = 'khmeros';
 

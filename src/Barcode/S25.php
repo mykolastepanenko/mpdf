@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Barcode;
+namespace UFO\Mpdf\Barcode;
 
 /**
  * Standard 2 of 5 barcodes.

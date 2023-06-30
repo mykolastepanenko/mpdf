@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-use Mpdf\MpdfImageException;
+use UFO\Mpdf\MpdfImageException;
 
 class Issue1609Test extends \Mpdf\BaseMpdfTest
 {

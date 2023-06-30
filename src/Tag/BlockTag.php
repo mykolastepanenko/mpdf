@@ -1,11 +1,11 @@
 <?php
 
-namespace Mpdf\Tag;
+namespace UFO\Mpdf\Tag;
 
-use Mpdf\Conversion\DecToAlpha;
-use Mpdf\Conversion\DecToRoman;
-use Mpdf\Utils\Arrays;
-use Mpdf\Utils\UtfString;
+use UFO\Mpdf\Conversion\DecToAlpha;
+use UFO\Mpdf\Conversion\DecToRoman;
+use UFO\Mpdf\Utils\Arrays;
+use UFO\Mpdf\Utils\UtfString;
 
 abstract class BlockTag extends Tag
 {

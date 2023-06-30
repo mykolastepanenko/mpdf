@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Barcode;
+namespace UFO\Mpdf\Barcode;
 
 /**
  * CODE 93 - USS-93

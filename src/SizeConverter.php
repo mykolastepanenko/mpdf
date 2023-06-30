@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
 use Psr\Log\LoggerInterface;
-use Mpdf\Log\Context as LogContext;
-use Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
+use UFO\Mpdf\Log\Context as LogContext;
+use UFO\Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
 
 class SizeConverter implements \Psr\Log\LoggerAwareInterface
 {

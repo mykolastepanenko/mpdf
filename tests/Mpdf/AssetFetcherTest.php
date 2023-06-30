@@ -1,11 +1,11 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
 use Mockery;
 
-use Mpdf\File\LocalContentLoaderInterface;
-use Mpdf\Http\ClientInterface;
+use UFO\Mpdf\File\LocalContentLoaderInterface;
+use UFO\Mpdf\Http\ClientInterface;
 use Psr\Log\NullLogger;
 
 class AssetFetcherTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase

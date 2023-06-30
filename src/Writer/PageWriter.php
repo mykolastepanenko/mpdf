@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpdf\Writer;
+namespace UFO\Mpdf\Writer;
 
-use Mpdf\Strict;
-use Mpdf\Mpdf;
-use Mpdf\Form;
+use UFO\Mpdf\Strict;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\Form;
 
 final class PageWriter
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Color\ColorConverter;
-use Mpdf\Css\TextVars;
+use UFO\Mpdf\Color\ColorConverter;
+use UFO\Mpdf\Css\TextVars;
 
 class DirectWrite
 {

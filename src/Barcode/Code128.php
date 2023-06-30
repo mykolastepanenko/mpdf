@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\Barcode;
+namespace UFO\Mpdf\Barcode;
 
-use Mpdf\Utils\UtfString;
+use UFO\Mpdf\Utils\UtfString;
 
 /**
  * C128 barcodes.

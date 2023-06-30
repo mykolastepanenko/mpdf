@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Mpdf;
+use UFO\Mpdf\Mpdf;
 
 abstract class BaseMpdfTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 {

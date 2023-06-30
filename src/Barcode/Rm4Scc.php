@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Barcode;
+namespace UFO\Mpdf\Barcode;
 
 class Rm4Scc extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
 {

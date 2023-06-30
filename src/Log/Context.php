@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Log;
+namespace UFO\Mpdf\Log;
 
 class Context
 {

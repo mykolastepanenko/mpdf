@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpdf\Color;
+namespace UFO\Mpdf\Color;
 
 use Mockery;
-use Mpdf\Mpdf;
+use UFO\Mpdf\Mpdf;
 
 class ColorConverterTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 {

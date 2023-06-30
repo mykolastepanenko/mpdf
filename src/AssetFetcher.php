@@ -1,13 +1,13 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\File\LocalContentLoaderInterface;
-use Mpdf\File\StreamWrapperChecker;
-use Mpdf\Http\ClientInterface;
-use Mpdf\Http\Request;
-use Mpdf\Log\Context as LogContext;
-use Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
+use UFO\Mpdf\File\LocalContentLoaderInterface;
+use UFO\Mpdf\File\StreamWrapperChecker;
+use UFO\Mpdf\Http\ClientInterface;
+use UFO\Mpdf\Http\Request;
+use UFO\Mpdf\Log\Context as LogContext;
+use UFO\Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
 use Psr\Log\LoggerInterface;
 
 class AssetFetcher implements \Psr\Log\LoggerAwareInterface

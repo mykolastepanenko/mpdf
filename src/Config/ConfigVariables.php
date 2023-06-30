@@ -1,11 +1,11 @@
 <?php
 
-namespace Mpdf\Config;
+namespace UFO\Mpdf\Config;
 
-use Mpdf\Css\DefaultCss;
-use Mpdf\Language\LanguageToFont;
-use Mpdf\Language\ScriptToLanguage;
-use Mpdf\Ucdn;
+use UFO\Mpdf\Css\DefaultCss;
+use UFO\Mpdf\Language\LanguageToFont;
+use UFO\Mpdf\Language\ScriptToLanguage;
+use UFO\Mpdf\Ucdn;
 
 class ConfigVariables
 {
@@ -364,7 +364,7 @@ class ConfigVariables
 
 			// LISTS
 			// mPDF 6
-			// 'mpdf' or 'browser' - Specify whether to use mPDF custom method of automatic
+			// 'mpdf' or 'browser' - Specify whether to use UFO\Mpdf custom method of automatic
 			'list_auto_mode' => 'browser',
 			// indentation of lists, or standard browser-compatible
 			// custom mPDF method is ignored if list-style-position: inside, or image used for marker (or custom U+)

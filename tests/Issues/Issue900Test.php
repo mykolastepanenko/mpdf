@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-use Mpdf\Output\Destination;
+use UFO\Mpdf\Output\Destination;
 use setasign\Fpdi\PdfParser\StreamReader;
 
 class Issue900Test extends \Mpdf\BaseMpdfTest

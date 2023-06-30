@@ -1,18 +1,18 @@
 <?php
 
-namespace Mpdf\Image;
+namespace UFO\Mpdf\Image;
 
-use Mpdf\Color\ColorConverter;
-use Mpdf\Css\TextVars;
-use Mpdf\CssManager;
-use Mpdf\Language\LanguageToFontInterface;
-use Mpdf\Language\ScriptToLanguageInterface;
-use Mpdf\Mpdf;
-use Mpdf\Otl;
-use Mpdf\SizeConverter;
-use Mpdf\Ucdn;
-use Mpdf\Utils\Arrays;
-use Mpdf\Utils\UtfString;
+use UFO\Mpdf\Color\ColorConverter;
+use UFO\Mpdf\Css\TextVars;
+use UFO\Mpdf\CssManager;
+use UFO\Mpdf\Language\LanguageToFontInterface;
+use UFO\Mpdf\Language\ScriptToLanguageInterface;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\Otl;
+use UFO\Mpdf\SizeConverter;
+use UFO\Mpdf\Ucdn;
+use UFO\Mpdf\Utils\Arrays;
+use UFO\Mpdf\Utils\UtfString;
 
 /**
  * SVG class modified for mPDF version >= 6.0

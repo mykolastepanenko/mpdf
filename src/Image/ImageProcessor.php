@@ -1,20 +1,20 @@
 <?php
 
-namespace Mpdf\Image;
+namespace UFO\Mpdf\Image;
 
-use Mpdf\AssetFetcher;
-use Mpdf\Cache;
-use Mpdf\Color\ColorConverter;
-use Mpdf\Color\ColorModeConverter;
-use Mpdf\CssManager;
-use Mpdf\Gif\Gif;
-use Mpdf\Language\LanguageToFontInterface;
-use Mpdf\Language\ScriptToLanguageInterface;
-use Mpdf\Log\Context as LogContext;
-use Mpdf\Mpdf;
-use Mpdf\Otl;
-use Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
-use Mpdf\SizeConverter;
+use UFO\Mpdf\AssetFetcher;
+use UFO\Mpdf\Cache;
+use UFO\Mpdf\Color\ColorConverter;
+use UFO\Mpdf\Color\ColorModeConverter;
+use UFO\Mpdf\CssManager;
+use UFO\Mpdf\Gif\Gif;
+use UFO\Mpdf\Language\LanguageToFontInterface;
+use UFO\Mpdf\Language\ScriptToLanguageInterface;
+use UFO\Mpdf\Log\Context as LogContext;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\Otl;
+use UFO\Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
+use UFO\Mpdf\SizeConverter;
 use Psr\Log\LoggerInterface;
 
 class ImageProcessor implements \Psr\Log\LoggerAwareInterface

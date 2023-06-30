@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Color;
+namespace UFO\Mpdf\Color;
 
 class ColorModeConverter
 {

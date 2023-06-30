@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
 use Mockery;
 use Psr\Log\NullLogger;

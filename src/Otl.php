@@ -1,17 +1,17 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Strict;
+use UFO\Mpdf\Strict;
 
-use Mpdf\Css\TextVars;
-use Mpdf\Fonts\FontCache;
+use UFO\Mpdf\Css\TextVars;
+use UFO\Mpdf\Fonts\FontCache;
 
-use Mpdf\Shaper\Indic;
-use Mpdf\Shaper\Myanmar;
-use Mpdf\Shaper\Sea;
+use UFO\Mpdf\Shaper\Indic;
+use UFO\Mpdf\Shaper\Myanmar;
+use UFO\Mpdf\Shaper\Sea;
 
-use Mpdf\Utils\UtfString;
+use UFO\Mpdf\Utils\UtfString;
 
 class Otl
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Color\ColorConverter;
-use Mpdf\Writer\BaseWriter;
+use UFO\Mpdf\Color\ColorConverter;
+use UFO\Mpdf\Writer\BaseWriter;
 
 class Gradient
 {

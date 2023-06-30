@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Language;
+namespace UFO\Mpdf\Language;
 
 interface ScriptToLanguageInterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpdf\Tag;
+namespace UFO\Mpdf\Tag;
 
-use Mpdf\Css\Border;
-use Mpdf\Css\TextVars;
-use Mpdf\Utils\UtfString;
+use UFO\Mpdf\Css\Border;
+use UFO\Mpdf\Css\TextVars;
+use UFO\Mpdf\Utils\UtfString;
 
 class Td extends Tag
 {

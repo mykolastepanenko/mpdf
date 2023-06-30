@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\Tag;
+namespace UFO\Mpdf\Tag;
 
-use Mpdf\Utils\UtfString;
+use UFO\Mpdf\Utils\UtfString;
 
 abstract class InlineTag extends Tag
 {

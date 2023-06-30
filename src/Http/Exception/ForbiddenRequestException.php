@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Http\Exception;
+namespace UFO\Mpdf\Http\Exception;
 
 class ForbiddenRequestException extends \Mpdf\MpdfException
 {

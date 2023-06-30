@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Barcode;
+namespace UFO\Mpdf\Barcode;
 
 /**
  * MSI - Variation of Plessey code, with similar applications

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Barcode;
+namespace UFO\Mpdf\Barcode;
 
 /**
  * CODE 39 - ANSI MH10.8M-1983 - USD-3 - 3 of 9.

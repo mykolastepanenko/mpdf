@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Tag;
+namespace UFO\Mpdf\Tag;
 
 class Bookmark extends Tag
 {

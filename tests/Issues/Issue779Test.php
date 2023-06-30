@@ -4,9 +4,9 @@ namespace Issues;
 
 use Mockery;
 
-use Mpdf\Log\Context as LogContext;
-use Mpdf\Mpdf;
-use Mpdf\Output\Destination;
+use UFO\Mpdf\Log\Context as LogContext;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\Output\Destination;
 
 use Psr\Log\NullLogger;
 

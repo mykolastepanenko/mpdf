@@ -3,16 +3,16 @@
 namespace Issues;
 
 use Mockery;
-use Mpdf\Color\ColorConverter;
-use Mpdf\Color\ColorModeConverter;
-use Mpdf\Color\ColorSpaceRestrictor;
-use Mpdf\CssManager;
-use Mpdf\Image\ImageProcessor;
-use Mpdf\Image\Svg;
-use Mpdf\Language\LanguageToFont;
-use Mpdf\Language\ScriptToLanguage;
-use Mpdf\Otl;
-use Mpdf\SizeConverter;
+use UFO\Mpdf\Color\ColorConverter;
+use UFO\Mpdf\Color\ColorModeConverter;
+use UFO\Mpdf\Color\ColorSpaceRestrictor;
+use UFO\Mpdf\CssManager;
+use UFO\Mpdf\Image\ImageProcessor;
+use UFO\Mpdf\Image\Svg;
+use UFO\Mpdf\Language\LanguageToFont;
+use UFO\Mpdf\Language\ScriptToLanguage;
+use UFO\Mpdf\Otl;
+use UFO\Mpdf\SizeConverter;
 
 /**
  * Class Issue450Test

@@ -1,19 +1,19 @@
 <?php
 
-namespace Mpdf\Tag;
+namespace UFO\Mpdf\Tag;
 
-use Mpdf\Strict;
+use UFO\Mpdf\Strict;
 
-use Mpdf\Cache;
-use Mpdf\Color\ColorConverter;
-use Mpdf\CssManager;
-use Mpdf\Form;
-use Mpdf\Image\ImageProcessor;
-use Mpdf\Language\LanguageToFontInterface;
-use Mpdf\Mpdf;
-use Mpdf\Otl;
-use Mpdf\SizeConverter;
-use Mpdf\TableOfContents;
+use UFO\Mpdf\Cache;
+use UFO\Mpdf\Color\ColorConverter;
+use UFO\Mpdf\CssManager;
+use UFO\Mpdf\Form;
+use UFO\Mpdf\Image\ImageProcessor;
+use UFO\Mpdf\Language\LanguageToFontInterface;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\Otl;
+use UFO\Mpdf\SizeConverter;
+use UFO\Mpdf\TableOfContents;
 
 abstract class Tag
 {

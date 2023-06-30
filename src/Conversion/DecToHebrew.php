@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\Conversion;
+namespace UFO\Mpdf\Conversion;
 
-use Mpdf\Utils\UtfString;
+use UFO\Mpdf\Utils\UtfString;
 
 class DecToHebrew
 {

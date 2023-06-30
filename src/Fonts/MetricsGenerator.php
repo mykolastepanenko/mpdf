@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\Fonts;
+namespace UFO\Mpdf\Fonts;
 
-use Mpdf\TTFontFile;
+use UFO\Mpdf\TTFontFile;
 
 class MetricsGenerator
 {

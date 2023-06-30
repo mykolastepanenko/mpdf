@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpdf\Writer;
+namespace UFO\Mpdf\Writer;
 
-use Mpdf\Strict;
-use Mpdf\Mpdf;
+use UFO\Mpdf\Strict;
+use UFO\Mpdf\Mpdf;
 
 final class BookmarkWriter
 {

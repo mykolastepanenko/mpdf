@@ -1,11 +1,11 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
 use fpdi_pdf_parser;
-use Mpdf\Pdf\Protection;
-use Mpdf\Pdf\Protection\UniqidGenerator;
-use Mpdf\Writer\BaseWriter;
+use UFO\Mpdf\Pdf\Protection;
+use UFO\Mpdf\Pdf\Protection\UniqidGenerator;
+use UFO\Mpdf\Writer\BaseWriter;
 use pdf_parser;
 use ReflectionClass;
 use setasign\Fpdi\PdfParser\PdfParser;

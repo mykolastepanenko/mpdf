@@ -2,19 +2,19 @@
 
 namespace UFO\Mpdf;
 
-use Mpdf\Config\ConfigVariables;
-use Mpdf\Config\FontVariables;
-use Mpdf\Conversion;
-use Mpdf\Css\Border;
-use Mpdf\Css\TextVars;
-use Mpdf\Log\Context as LogContext;
-use Mpdf\Fonts\MetricsGenerator;
-use Mpdf\Output\Destination;
-use Mpdf\PsrLogAwareTrait\MpdfPsrLogAwareTrait;
-use Mpdf\QrCode;
-use Mpdf\Utils\Arrays;
-use Mpdf\Utils\NumericString;
-use Mpdf\Utils\UtfString;
+use UFO\Mpdf\Config\ConfigVariables;
+use UFO\Mpdf\Config\FontVariables;
+use UFO\Mpdf\Conversion;
+use UFO\Mpdf\Css\Border;
+use UFO\Mpdf\Css\TextVars;
+use UFO\Mpdf\Log\Context as LogContext;
+use UFO\Mpdf\Fonts\MetricsGenerator;
+use UFO\Mpdf\Output\Destination;
+use UFO\Mpdf\PsrLogAwareTrait\MpdfPsrLogAwareTrait;
+use UFO\Mpdf\QrCode;
+use UFO\Mpdf\Utils\Arrays;
+use UFO\Mpdf\Utils\NumericString;
+use UFO\Mpdf\Utils\UtfString;
 use Psr\Log\NullLogger;
 
 /**
@@ -30,7 +30,7 @@ class Mpdf implements \Psr\Log\LoggerAwareInterface
 
 	use Strict;
 	use FpdiTrait;
-	use MpdfPsrLogAwareTrait;
+	use UFO\MpdfPsrLogAwareTrait;
 
 	const VERSION = '8.2.0';
 

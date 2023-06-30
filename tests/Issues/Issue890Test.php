@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-use Mpdf\Mpdf;
+use UFO\Mpdf\Mpdf;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 

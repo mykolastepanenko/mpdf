@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Conversion;
+namespace UFO\Mpdf\Conversion;
 
 /**
  * @link https://github.com/JeroenDeDauw/RomanNumbers

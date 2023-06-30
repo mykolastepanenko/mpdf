@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
 class CacheTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 {

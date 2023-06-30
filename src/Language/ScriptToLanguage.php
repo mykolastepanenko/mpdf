@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\Language;
+namespace UFO\Mpdf\Language;
 
-use Mpdf\Ucdn;
+use UFO\Mpdf\Ucdn;
 
 class ScriptToLanguage implements \Mpdf\Language\ScriptToLanguageInterface
 {

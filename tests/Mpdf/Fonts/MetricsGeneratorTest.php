@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Fonts;
+namespace UFO\Mpdf\Fonts;
 
 use Mockery;
 

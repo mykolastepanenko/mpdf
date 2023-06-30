@@ -1,30 +1,30 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Color\ColorConverter;
-use Mpdf\Color\ColorModeConverter;
-use Mpdf\Color\ColorSpaceRestrictor;
-use Mpdf\File\LocalContentLoader;
-use Mpdf\Fonts\FontCache;
-use Mpdf\Fonts\FontFileFinder;
-use Mpdf\Http\CurlHttpClient;
-use Mpdf\Http\SocketHttpClient;
-use Mpdf\Image\ImageProcessor;
-use Mpdf\Pdf\Protection;
-use Mpdf\Pdf\Protection\UniqidGenerator;
-use Mpdf\Writer\BaseWriter;
-use Mpdf\Writer\BackgroundWriter;
-use Mpdf\Writer\ColorWriter;
-use Mpdf\Writer\BookmarkWriter;
-use Mpdf\Writer\FontWriter;
-use Mpdf\Writer\FormWriter;
-use Mpdf\Writer\ImageWriter;
-use Mpdf\Writer\JavaScriptWriter;
-use Mpdf\Writer\MetadataWriter;
-use Mpdf\Writer\OptionalContentWriter;
-use Mpdf\Writer\PageWriter;
-use Mpdf\Writer\ResourceWriter;
+use UFO\Mpdf\Color\ColorConverter;
+use UFO\Mpdf\Color\ColorModeConverter;
+use UFO\Mpdf\Color\ColorSpaceRestrictor;
+use UFO\Mpdf\File\LocalContentLoader;
+use UFO\Mpdf\Fonts\FontCache;
+use UFO\Mpdf\Fonts\FontFileFinder;
+use UFO\Mpdf\Http\CurlHttpClient;
+use UFO\Mpdf\Http\SocketHttpClient;
+use UFO\Mpdf\Image\ImageProcessor;
+use UFO\Mpdf\Pdf\Protection;
+use UFO\Mpdf\Pdf\Protection\UniqidGenerator;
+use UFO\Mpdf\Writer\BaseWriter;
+use UFO\Mpdf\Writer\BackgroundWriter;
+use UFO\Mpdf\Writer\ColorWriter;
+use UFO\Mpdf\Writer\BookmarkWriter;
+use UFO\Mpdf\Writer\FontWriter;
+use UFO\Mpdf\Writer\FormWriter;
+use UFO\Mpdf\Writer\ImageWriter;
+use UFO\Mpdf\Writer\JavaScriptWriter;
+use UFO\Mpdf\Writer\MetadataWriter;
+use UFO\Mpdf\Writer\OptionalContentWriter;
+use UFO\Mpdf\Writer\PageWriter;
+use UFO\Mpdf\Writer\ResourceWriter;
 use Psr\Log\LoggerInterface;
 
 class ServiceFactory

@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpdf\Fonts;
+namespace UFO\Mpdf\Fonts;
 
-use Mpdf\Mpdf;
-use Mpdf\Cache;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\Cache;
 
 class FontCacheTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 {

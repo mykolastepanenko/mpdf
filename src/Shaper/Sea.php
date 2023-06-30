@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Shaper;
+namespace UFO\Mpdf\Shaper;
 
 class Sea
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Mpdf\Writer;
+namespace UFO\Mpdf\Writer;
 
-use Mpdf\Strict;
-use Mpdf\Fonts\FontCache;
-use Mpdf\Mpdf;
-use Mpdf\TTFontFile;
+use UFO\Mpdf\Strict;
+use UFO\Mpdf\Fonts\FontCache;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\TTFontFile;
 
 class FontWriter
 {

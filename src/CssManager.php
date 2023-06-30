@@ -1,14 +1,14 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Color\ColorConverter;
-use Mpdf\Css\TextVars;
-use Mpdf\File\StreamWrapperChecker;
-use Mpdf\Http\ClientInterface;
-use Mpdf\Http\Request;
-use Mpdf\Utils\Arrays;
-use Mpdf\Utils\UtfString;
+use UFO\Mpdf\Color\ColorConverter;
+use UFO\Mpdf\Css\TextVars;
+use UFO\Mpdf\File\StreamWrapperChecker;
+use UFO\Mpdf\Http\ClientInterface;
+use UFO\Mpdf\Http\Request;
+use UFO\Mpdf\Utils\Arrays;
+use UFO\Mpdf\Utils\UtfString;
 
 class CssManager
 {

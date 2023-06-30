@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpdf\Conversion;
+namespace UFO\Mpdf\Conversion;
 
 use Mockery;
-use Mpdf\Mpdf;
+use UFO\Mpdf\Mpdf;
 
 class DecToOtherTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 {

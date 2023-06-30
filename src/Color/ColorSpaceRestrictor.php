@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\Color;
+namespace UFO\Mpdf\Color;
 
-use Mpdf\Mpdf;
+use UFO\Mpdf\Mpdf;
 
 class ColorSpaceRestrictor
 {

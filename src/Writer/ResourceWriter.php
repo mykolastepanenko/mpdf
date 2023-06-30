@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpdf\Writer;
+namespace UFO\Mpdf\Writer;
 
-use Mpdf\Strict;
-use Mpdf\Mpdf;
-use Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
+use UFO\Mpdf\Strict;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
 use Psr\Log\LoggerInterface;
 
 final class ResourceWriter implements \Psr\Log\LoggerAwareInterface

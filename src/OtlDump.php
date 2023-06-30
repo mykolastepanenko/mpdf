@@ -1,13 +1,13 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
 // Define the value used in the "head" table of a created TTF file
 // 0x74727565 "true" for Mac
 // 0x00010000 for Windows
 // Either seems to work for a font embedded in a PDF file
 // when read by Adobe Reader on a Windows PC(!)
-use Mpdf\Fonts\GlyphOperator;
+use UFO\Mpdf\Fonts\GlyphOperator;
 
 if (!defined('_TTF_MAC_HEADER')) {
 	define("_TTF_MAC_HEADER", false);

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Css;
+namespace UFO\Mpdf\Css;
 
 class Border
 {

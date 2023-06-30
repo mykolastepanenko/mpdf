@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpdf\Conversion;
+namespace UFO\Mpdf\Conversion;
 
-use Mpdf\Mpdf;
-use Mpdf\Utils\UtfString;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\Utils\UtfString;
 
 class DecToOther
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\Fonts;
+namespace UFO\Mpdf\Fonts;
 
-use Mpdf\Cache;
+use UFO\Mpdf\Cache;
 
 class FontCache
 {

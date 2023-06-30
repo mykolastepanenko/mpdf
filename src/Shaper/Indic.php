@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\Shaper;
+namespace UFO\Mpdf\Shaper;
 
-use Mpdf\Ucdn;
+use UFO\Mpdf\Ucdn;
 
 class Indic
 {

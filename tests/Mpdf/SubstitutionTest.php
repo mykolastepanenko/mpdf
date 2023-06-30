@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Pdf\Protection;
-use Mpdf\Pdf\Protection\UniqidGenerator;
-use Mpdf\Writer\BaseWriter;
+use UFO\Mpdf\Pdf\Protection;
+use UFO\Mpdf\Pdf\Protection\UniqidGenerator;
+use UFO\Mpdf\Writer\BaseWriter;
 
 class SubstitutionTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 {

@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-use Mpdf\TestLogger;
+use UFO\Mpdf\TestLogger;
 
 class Issue1700Test extends \Mpdf\BaseMpdfTest
 {

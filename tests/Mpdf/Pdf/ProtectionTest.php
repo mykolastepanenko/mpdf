@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Pdf;
+namespace UFO\Mpdf\Pdf;
 
 use Mockery;
 

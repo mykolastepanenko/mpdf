@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpdf\Writer;
+namespace UFO\Mpdf\Writer;
 
-use Mpdf\Strict;
-use Mpdf\Mpdf;
-use Mpdf\Pdf\Protection;
+use UFO\Mpdf\Strict;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\Pdf\Protection;
 
 final class BaseWriter
 {

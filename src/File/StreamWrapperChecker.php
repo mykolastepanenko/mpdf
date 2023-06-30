@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf\File;
+namespace UFO\Mpdf\File;
 
-use Mpdf\Mpdf;
+use UFO\Mpdf\Mpdf;
 
 final class StreamWrapperChecker
 {

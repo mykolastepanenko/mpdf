@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\File;
+namespace UFO\Mpdf\File;
 
 class LocalContentLoader implements \Mpdf\File\LocalContentLoaderInterface
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Mpdf\Image;
+namespace UFO\Mpdf\Image;
 
 use Mockery;
-use Mpdf\CssManager;
-use Mpdf\Color\ColorConverter;
-use Mpdf\Language\LanguageToFont;
-use Mpdf\Language\ScriptToLanguage;
-use Mpdf\Mpdf;
-use Mpdf\Otl;
-use Mpdf\SizeConverter;
+use UFO\Mpdf\CssManager;
+use UFO\Mpdf\Color\ColorConverter;
+use UFO\Mpdf\Language\LanguageToFont;
+use UFO\Mpdf\Language\ScriptToLanguage;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\Otl;
+use UFO\Mpdf\SizeConverter;
 
 class SvgTest extends \Yoast\PHPUnitPolyfills\TestCases\TestCase
 {

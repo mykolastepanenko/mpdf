@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Http;
+namespace UFO\Mpdf\Http;
 
 /**
  * @link nyholm/psr7

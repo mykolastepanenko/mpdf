@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpdf\Image;
+namespace UFO\Mpdf\Image;
 
-use Mpdf\Color\ColorConverter;
-use Mpdf\Mpdf;
+use UFO\Mpdf\Color\ColorConverter;
+use UFO\Mpdf\Mpdf;
 
 class Wmf
 {

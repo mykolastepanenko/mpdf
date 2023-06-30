@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Container;
+namespace UFO\Mpdf\Container;
 
 interface ContainerInterface
 {

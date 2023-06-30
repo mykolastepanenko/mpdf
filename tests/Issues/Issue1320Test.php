@@ -2,8 +2,8 @@
 
 namespace Issues;
 
-use Mpdf\Mpdf;
-use Mpdf\Output\Destination;
+use UFO\Mpdf\Mpdf;
+use UFO\Mpdf\Output\Destination;
 
 /**
  * Class Issue1320Test

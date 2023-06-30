@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
-use Mpdf\Fonts\FontCache;
+use UFO\Mpdf\Fonts\FontCache;
 
 /**
  * This script prints out the Unicode coverage of all TrueType font files in your font directory.

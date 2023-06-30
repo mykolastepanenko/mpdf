@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Output;
+namespace UFO\Mpdf\Output;
 
 class Destination
 {
