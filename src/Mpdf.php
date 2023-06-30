@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf;
+namespace UFO\Mpdf;
 
 use Mpdf\Config\ConfigVariables;
 use Mpdf\Config\FontVariables;
