@@ -7,7 +7,7 @@ namespace UFO\Mpdf\Barcode;
  * Compact numeric code, widely used in industry, air cargo
  * Contains digits (0 to 9) and encodes the data in the width of both bars and spaces.
  */
-class I25 extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
+class I25 extends \UFO\Mpdf\Barcode\AbstractBarcode implements \UFO\Mpdf\Barcode\BarcodeInterface
 {
 
 	/**

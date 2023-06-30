@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue761Test extends \Mpdf\BaseMpdfTest
+class Issue761Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testFontSizeWithoutLeadingZero()

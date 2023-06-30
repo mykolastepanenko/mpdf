@@ -6,7 +6,7 @@ namespace UFO\Mpdf\Barcode;
  * CODE11 barcodes.
  * Used primarily for labeling telecommunications equipment
  */
-class Code11 extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
+class Code11 extends \UFO\Mpdf\Barcode\AbstractBarcode implements \UFO\Mpdf\Barcode\BarcodeInterface
 {
 
 	/**

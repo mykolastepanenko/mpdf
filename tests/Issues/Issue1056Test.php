@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue1056Test extends \Mpdf\BaseMpdfTest
+class Issue1056Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testValidCollationGroupRequire()

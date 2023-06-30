@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue491Test extends \Mpdf\BaseMpdfTest
+class Issue491Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function htmlProvider()

@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Output\Destination;
 
-class Issue617Test extends \Mpdf\BaseMpdfTest
+class Issue617Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testInvalidTableMarkup()

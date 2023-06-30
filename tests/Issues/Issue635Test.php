@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue635Test extends \Mpdf\BaseMpdfTest
+class Issue635Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testBorderRadiusUndefinedNotice()

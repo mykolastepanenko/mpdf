@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue339Test extends \Mpdf\BaseMpdfTest
+class Issue339Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testListNumberingPageBreakAvoid()

@@ -7,7 +7,7 @@ namespace UFO\Mpdf\Barcode;
  * 2-Digit Ext.: Used to indicate magazines and newspaper issue numbers
  * 5-Digit Ext.: Used to mark suggested retail price of books
  */
-class EanExt extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
+class EanExt extends \UFO\Mpdf\Barcode\AbstractBarcode implements \UFO\Mpdf\Barcode\BarcodeInterface
 {
 
 	/**

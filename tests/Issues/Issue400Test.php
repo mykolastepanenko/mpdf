@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue400Test extends \Mpdf\BaseMpdfTest
+class Issue400Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testNonNumericValue()

@@ -2,7 +2,7 @@
 
 namespace UFO\Mpdf\Container;
 
-class SimpleContainer implements \Mpdf\Container\ContainerInterface
+class SimpleContainer implements \UFO\Mpdf\Container\ContainerInterface
 {
 
 	private $services;

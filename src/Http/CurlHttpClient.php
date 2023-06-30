@@ -8,7 +8,7 @@ use Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
 use Psr\Http\Message\RequestInterface;
 use Psr\Log\LoggerInterface;
 
-class CurlHttpClient implements \Mpdf\Http\ClientInterface, \Psr\Log\LoggerAwareInterface
+class CurlHttpClient implements \UFO\Mpdf\Http\ClientInterface, \Psr\Log\LoggerAwareInterface
 {
 	use PsrLogAwareTrait;
 

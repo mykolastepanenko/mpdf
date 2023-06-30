@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue554Test extends \Mpdf\BaseMpdfTest
+class Issue554Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testDollarInHeaderCoreFonts()

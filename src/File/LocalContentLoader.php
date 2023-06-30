@@ -2,7 +2,7 @@
 
 namespace UFO\Mpdf\File;
 
-class LocalContentLoader implements \Mpdf\File\LocalContentLoaderInterface
+class LocalContentLoader implements \UFO\Mpdf\File\LocalContentLoaderInterface
 {
 
 	public function load($path)

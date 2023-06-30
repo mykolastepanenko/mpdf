@@ -5,7 +5,7 @@ namespace Issues;
 use UFO\Mpdf\Mpdf;
 use UFO\Mpdf\Output\Destination;
 
-class Issue1765Test extends \Mpdf\BaseMpdfTest
+class Issue1765Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testTableWithNotValidRowspan()

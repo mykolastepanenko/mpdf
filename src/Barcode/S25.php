@@ -7,7 +7,7 @@ namespace UFO\Mpdf\Barcode;
  * Used in airline ticket marking, photofinishing
  * Contains digits (0 to 9) and encodes the data only in the width of bars.
  */
-class S25 extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
+class S25 extends \UFO\Mpdf\Barcode\AbstractBarcode implements \UFO\Mpdf\Barcode\BarcodeInterface
 {
 
 	/**

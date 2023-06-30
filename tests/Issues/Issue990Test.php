@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Output\Destination;
 
-class Issue990Test extends \Mpdf\BaseMpdfTest
+class Issue990Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testWarningDivisionByZero()

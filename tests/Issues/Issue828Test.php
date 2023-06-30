@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Output\Destination;
 
-class Issue828Test extends \Mpdf\BaseMpdfTest
+class Issue828Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testFixedHeaderFooter()

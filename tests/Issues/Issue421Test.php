@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue421Test extends \Mpdf\BaseMpdfTest
+class Issue421Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testCleanupMethod()

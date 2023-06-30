@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\TestLogger;
 
-class Issue1700Test extends \Mpdf\BaseMpdfTest
+class Issue1700Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testImageLoadingProblemForAbsolutePathsWithSpaceInTheFilename()

@@ -10,7 +10,7 @@ use UFO\Mpdf\Output\Destination;
 
 use Psr\Log\NullLogger;
 
-class Issue779Test extends \Mpdf\BaseMpdfTest
+class Issue779Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testOffsetsInHtmlTable()

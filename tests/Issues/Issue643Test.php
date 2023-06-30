@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue643Test extends \Mpdf\BaseMpdfTest
+class Issue643Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testTocPageBreak()

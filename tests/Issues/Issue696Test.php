@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue696Test extends \Mpdf\BaseMpdfTest
+class Issue696Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testMissingMiwNotice()

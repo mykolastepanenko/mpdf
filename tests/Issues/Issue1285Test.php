@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue1285Test extends \Mpdf\BaseMpdfTest
+class Issue1285Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testNoUndefinedIndex()

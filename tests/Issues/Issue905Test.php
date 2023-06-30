@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue905Test extends \Mpdf\BaseMpdfTest
+class Issue905Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	protected function set_up()

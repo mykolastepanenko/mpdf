@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue1660Test extends \Mpdf\BaseMpdfTest
+class Issue1660Test extends \UFO\Mpdf\BaseMpdfTest
 {
 	public function testTwoColumnSpill()
 	{

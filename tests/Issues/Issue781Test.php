@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue781Test extends \Mpdf\BaseMpdfTest
+class Issue781Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testNoNoticeWhenTocPageBreakByArray()

@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Output\Destination;
 
-class Issue952Test extends \Mpdf\BaseMpdfTest
+class Issue952Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testBoxShadow()

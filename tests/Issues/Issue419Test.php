@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue419Test extends \Mpdf\BaseMpdfTest
+class Issue419Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testCssImport()

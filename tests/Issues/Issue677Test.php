@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue677Test extends \Mpdf\BaseMpdfTest
+class Issue677Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testFooterHeightNotices()

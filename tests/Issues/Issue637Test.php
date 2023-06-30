@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue637Test extends \Mpdf\BaseMpdfTest
+class Issue637Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testEnableImportWithNoPdfImported()

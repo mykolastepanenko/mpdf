@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue1844Test extends \Mpdf\BaseMpdfTest
+class Issue1844Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testUndefinedIndex()

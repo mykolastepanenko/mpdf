@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue1831Test extends \Mpdf\BaseMpdfTest
+class Issue1831Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testDoubleHyphen()

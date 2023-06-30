@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Output\Destination;
 
-class Issue785Test extends \Mpdf\BaseMpdfTest
+class Issue785Test extends \UFO\Mpdf\BaseMpdfTest
 {
 	public function testFloatAndPageBreakInside()
 	{

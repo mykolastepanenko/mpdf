@@ -6,7 +6,7 @@ namespace UFO\Mpdf\Barcode;
  * CODE 93 - USS-93
  * Compact code similar to Code 39
  */
-class Code93 extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
+class Code93 extends \UFO\Mpdf\Barcode\AbstractBarcode implements \UFO\Mpdf\Barcode\BarcodeInterface
 {
 
 	/**

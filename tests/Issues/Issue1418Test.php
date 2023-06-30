@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue1418Test extends \Mpdf\BaseMpdfTest
+class Issue1418Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testNoLangMetadata()

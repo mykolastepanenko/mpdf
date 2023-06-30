@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue645Test extends \Mpdf\BaseMpdfTest
+class Issue645Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testFixSelfClosingTag()

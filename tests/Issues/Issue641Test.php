@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue641Test extends \Mpdf\BaseMpdfTest
+class Issue641Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testCountPagebreakWarning()

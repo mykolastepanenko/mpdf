@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue993Test extends \Mpdf\BaseMpdfTest
+class Issue993Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testFailingJPEG()

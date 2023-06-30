@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue732Test extends \Mpdf\BaseMpdfTest
+class Issue732Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	protected function set_up()

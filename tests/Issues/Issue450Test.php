@@ -18,7 +18,7 @@ use UFO\Mpdf\SizeConverter;
  * Class Issue450Test
  * @author Antonio Norman - softcodex.ch
  */
-class Issue450Test extends \Mpdf\BaseMpdfTest
+class Issue450Test extends \UFO\Mpdf\BaseMpdfTest
 {
 	/**
 	 * SVGs with global CSS styles, had the styles ignored

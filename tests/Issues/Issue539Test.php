@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue539Test extends \Mpdf\BaseMpdfTest
+class Issue539Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testUndefinedGetImageFunction()

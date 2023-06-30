@@ -6,7 +6,7 @@ namespace UFO\Mpdf\Barcode;
  * MSI - Variation of Plessey code, with similar applications
  * Contains digits (0 to 9) and encodes the data only in the width of bars.
  */
-class Msi extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
+class Msi extends \UFO\Mpdf\Barcode\AbstractBarcode implements \UFO\Mpdf\Barcode\BarcodeInterface
 {
 
 	/**

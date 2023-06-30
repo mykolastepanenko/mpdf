@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue1430Test extends \Mpdf\BaseMpdfTest
+class Issue1430Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testHTMLQuietZone()

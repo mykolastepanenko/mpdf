@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue730Test extends \Mpdf\BaseMpdfTest
+class Issue730Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testIncorrectLeftPaddingAfterFloat()

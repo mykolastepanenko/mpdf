@@ -6,7 +6,7 @@ use UFO\Mpdf\Mpdf;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 
-class Issue890Test extends \Mpdf\BaseMpdfTest
+class Issue890Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	protected function set_up()

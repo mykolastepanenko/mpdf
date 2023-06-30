@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue640Test extends \Mpdf\BaseMpdfTest
+class Issue640Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testBottomMargin()

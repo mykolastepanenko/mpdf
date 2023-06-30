@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Output\Destination;
 
-class Issue897Test extends \Mpdf\BaseMpdfTest
+class Issue897Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testSetHeader()

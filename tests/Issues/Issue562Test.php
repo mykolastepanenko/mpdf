@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue562Test extends \Mpdf\BaseMpdfTest
+class Issue562Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testCountOtlWarning()

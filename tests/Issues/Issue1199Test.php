@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue1199Test extends \Mpdf\BaseMpdfTest
+class Issue1199Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testUndefinedVariableInFooter()

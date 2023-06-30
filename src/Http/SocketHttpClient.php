@@ -7,7 +7,7 @@ use Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
 use Psr\Http\Message\RequestInterface;
 use Psr\Log\LoggerInterface;
 
-class SocketHttpClient implements \Mpdf\Http\ClientInterface, \Psr\Log\LoggerAwareInterface
+class SocketHttpClient implements \UFO\Mpdf\Http\ClientInterface, \Psr\Log\LoggerAwareInterface
 {
 
 	use PsrLogAwareTrait;

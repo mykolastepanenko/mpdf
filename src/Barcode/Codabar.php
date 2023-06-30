@@ -6,7 +6,7 @@ namespace UFO\Mpdf\Barcode;
  * CODABAR barcodes.
  * Older code often used in library systems, sometimes in blood banks
  */
-class Codabar extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
+class Codabar extends \UFO\Mpdf\Barcode\AbstractBarcode implements \UFO\Mpdf\Barcode\BarcodeInterface
 {
 
 	/**

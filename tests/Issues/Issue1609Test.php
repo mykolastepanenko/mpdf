@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\MpdfImageException;
 
-class Issue1609Test extends \Mpdf\BaseMpdfTest
+class Issue1609Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testNoPngError()

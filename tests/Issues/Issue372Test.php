@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue372Test extends \Mpdf\BaseMpdfTest
+class Issue372Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testWatermarkOnImport()

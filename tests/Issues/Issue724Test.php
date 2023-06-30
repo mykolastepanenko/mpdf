@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue724Test extends \Mpdf\BaseMpdfTest
+class Issue724Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	protected function getTable()

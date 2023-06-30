@@ -8,7 +8,7 @@ namespace UFO\Mpdf\Barcode;
  * UPC-A: Universal product code seen on almost all retail products in the USA and Canada
  * UPC-E: Short version of UPC symbol
  */
-class EanUpc extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
+class EanUpc extends \UFO\Mpdf\Barcode\AbstractBarcode implements \UFO\Mpdf\Barcode\BarcodeInterface
 {
 
 	/**

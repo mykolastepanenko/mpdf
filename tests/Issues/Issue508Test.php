@@ -4,7 +4,7 @@ namespace Issues;
 
 use UFO\Mpdf\Mpdf;
 
-class Issue508Test extends \Mpdf\BaseMpdfTest
+class Issue508Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testHrInTable()

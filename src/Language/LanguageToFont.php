@@ -2,7 +2,7 @@
 
 namespace UFO\Mpdf\Language;
 
-class LanguageToFont implements \Mpdf\Language\LanguageToFontInterface
+class LanguageToFont implements \UFO\Mpdf\Language\LanguageToFontInterface
 {
 
 	public function getLanguageOptions($llcc, $adobeCJK)

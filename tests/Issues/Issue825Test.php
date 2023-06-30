@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue825Test extends \Mpdf\BaseMpdfTest
+class Issue825Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testLowercaseRomanPageNumbers()

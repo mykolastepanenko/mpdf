@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue1597Test extends \Mpdf\BaseMpdfTest
+class Issue1597Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testListNumberingPageBreakAvoid()

@@ -2,7 +2,7 @@
 
 namespace Issues;
 
-class Issue1866Test extends \Mpdf\BaseMpdfTest
+class Issue1866Test extends \UFO\Mpdf\BaseMpdfTest
 {
 
 	public function testWatermark()

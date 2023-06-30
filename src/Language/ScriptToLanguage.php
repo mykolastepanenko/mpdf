@@ -4,7 +4,7 @@ namespace UFO\Mpdf\Language;
 
 use UFO\Mpdf\Ucdn;
 
-class ScriptToLanguage implements \Mpdf\Language\ScriptToLanguageInterface
+class ScriptToLanguage implements \UFO\Mpdf\Language\ScriptToLanguageInterface
 {
 
 	private $scriptDelimiterMap = [

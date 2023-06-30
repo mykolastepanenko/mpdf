@@ -5,7 +5,7 @@ namespace UFO\Mpdf\Barcode;
 /**
  * CODE 39 - ANSI MH10.8M-1983 - USD-3 - 3 of 9.
  */
-class Code39 extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
+class Code39 extends \UFO\Mpdf\Barcode\AbstractBarcode implements \UFO\Mpdf\Barcode\BarcodeInterface
 {
 
 	/**

@@ -31,7 +31,7 @@ namespace UFO\Mpdf\Barcode;
  *     be 0, 5, 9, or 11 digits. The allowable encoding ranges shall be no ZIP Code, 00000-99999,  000000000-999999999,
  *     and 00000000000-99999999999.
  */
-class Imb extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
+class Imb extends \UFO\Mpdf\Barcode\AbstractBarcode implements \UFO\Mpdf\Barcode\BarcodeInterface
 {
 
 	/**

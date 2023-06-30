@@ -5,7 +5,7 @@ namespace Issues;
 use UFO\Mpdf\Output\Destination;
 use setasign\Fpdi\PdfParser\StreamReader;
 
-class Issue900Test extends \Mpdf\BaseMpdfTest
+class Issue900Test extends \UFO\Mpdf\BaseMpdfTest
 {
 	public function testMergePdfWithLinks()
 	{

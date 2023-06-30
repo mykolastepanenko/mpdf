@@ -8,7 +8,7 @@ use UFO\Mpdf\Utils\UtfString;
  * C128 barcodes.
  * Very capable code, excellent density, high reliability; in very wide use world-wide
  */
-class Code128 extends \Mpdf\Barcode\AbstractBarcode implements \Mpdf\Barcode\BarcodeInterface
+class Code128 extends \UFO\Mpdf\Barcode\AbstractBarcode implements \UFO\Mpdf\Barcode\BarcodeInterface
 {
 
 	/**
