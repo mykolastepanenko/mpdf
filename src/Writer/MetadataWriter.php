@@ -6,7 +6,7 @@ use UFO\Mpdf\Strict;
 use UFO\Mpdf\Form;
 use UFO\Mpdf\Mpdf;
 use UFO\Mpdf\Pdf\Protection;
-use UFO\Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
+use Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
 use UFO\Mpdf\Utils\PdfDate;
 
 use Psr\Log\LoggerInterface;

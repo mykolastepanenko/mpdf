@@ -4,7 +4,7 @@ namespace UFO\Mpdf\Writer;
 
 use UFO\Mpdf\Strict;
 use UFO\Mpdf\Mpdf;
-use UFO\Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
+use Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
 use Psr\Log\LoggerInterface;
 
 final class ResourceWriter implements \Psr\Log\LoggerAwareInterface

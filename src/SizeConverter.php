@@ -4,7 +4,7 @@ namespace UFO\Mpdf;
 
 use Psr\Log\LoggerInterface;
 use UFO\Mpdf\Log\Context as LogContext;
-use UFO\Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
+use Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
 
 class SizeConverter implements \Psr\Log\LoggerAwareInterface
 {

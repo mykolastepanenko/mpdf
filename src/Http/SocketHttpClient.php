@@ -3,7 +3,7 @@
 namespace UFO\Mpdf\Http;
 
 use UFO\Mpdf\Log\Context as LogContext;
-use UFO\Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
+use Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
 use Psr\Http\Message\RequestInterface;
 use Psr\Log\LoggerInterface;
 

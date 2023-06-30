@@ -13,7 +13,7 @@ use UFO\Mpdf\Language\ScriptToLanguageInterface;
 use UFO\Mpdf\Log\Context as LogContext;
 use UFO\Mpdf\Mpdf;
 use UFO\Mpdf\Otl;
-use UFO\Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
+use Mpdf\PsrLogAwareTrait\PsrLogAwareTrait;
 use UFO\Mpdf\SizeConverter;
 use Psr\Log\LoggerInterface;
 

@@ -10,7 +10,7 @@ use UFO\Mpdf\Css\TextVars;
 use UFO\Mpdf\Log\Context as LogContext;
 use UFO\Mpdf\Fonts\MetricsGenerator;
 use UFO\Mpdf\Output\Destination;
-use UFO\Mpdf\PsrLogAwareTrait\MpdfPsrLogAwareTrait;
+use Mpdf\PsrLogAwareTrait\MpdfPsrLogAwareTrait;
 use UFO\Mpdf\QrCode;
 use UFO\Mpdf\Utils\Arrays;
 use UFO\Mpdf\Utils\NumericString;
