@@ -1,5 +1,5 @@
 {
-	"name": "mpdf/mpdf",
+	"name": "ufo/mpdf",
 	"type": "library",
 	"description": "PHP library generating PDF files from UTF-8 encoded HTML",
 	"keywords": ["php", "pdf", "utf-8"],
@@ -45,12 +45,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Mpdf\\": "src/"
+			"UFO\\Mpdf\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"Mpdf\\": "tests/Mpdf"
+			"UFO\\Mpdf\\": "tests/Mpdf"
 		},
 		"files": [
 			"src/functions-dev.php"
